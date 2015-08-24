@@ -1,0 +1,244 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #C0C0C0;}
+	
+#page {
+	background-color: #FFFFFF;
+	width: 960px;
+	margin: 10px auto;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;}
+	
+#header {
+	margin: 10px;
+	padding: 10px;
+	text-align: center;
+	color: #202020;
+	text-transform: uppercase;}
+	
+#header h1 {
+	display:none;
+	margin-left: 9999px;}
+	
+#header p.header-top {
+	margin-top: 0px;
+	font-size: 230%;
+	padding-left: 15px;
+	height: auto;
+	margin-bottom: 0px;
+	letter-spacing: 0.6em;}
+
+#header p.header-bottom {
+	width:210px;
+	margin: 0px auto 0px auto;
+	border-top: 2px solid #505050;
+	border-bottom: 2px solid #505050;
+	font-size: 175%;}
+	
+#header p.header-bottom .inc-size {
+	font-size: 130%;}
+
+#header p.header-est {
+	margin-top: 5px;
+	margin-bottom: -10px;}
+	
+#header p.header-est .shrink-size {
+	font-size: 90%;}
+	
+#mobile-nav {
+	display: none;}
+	
+#nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin-top: 55px;
+	margin-left: 0px;}
+	
+#nav li {
+	line-height: 3em;}
+	
+#nav a.current {
+	color: #FFFFFF;}
+	
+#nav a#christmas {
+	color: #91CFDC;}
+	
+#nav a#christmas:hover {
+	color: #FFFFFF;}
+
+#nav a {
+	color: #C0C0C0;
+	font-size: 120%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;}	
+	
+#nav a:hover {
+	color: #FFFFFF;}
+	
+#nav a.shrink-text {
+	font-size: 100%;}
+	
+p.temp-text {
+	display: block;
+	font-size: 400%;
+	margin-top: 180px;
+	text-align: center;}
+	
+p#christmas {
+	color: #A6D2DB;}
+
+#content {
+	margin: 0px 10px;}
+	
+.col-left, .col-center, .col-right {
+	height: 470px;
+	color: white;}
+	
+.col-left {
+	background-color: #686868;
+	float: left;
+	width: 340px;
+	height: 470px;}
+	
+#content-img  {
+	background-image: url(../image/home.jpg);}
+	
+#img-about-us {
+	background-image: url(../image/about-us.jpg);}
+	
+#img-trt-fees {
+	background-image: url(../image/treatment-fees.jpg);}
+	
+#img-contact-us {
+	background-image: url(../image/contact-us.jpg);}
+	
+#img-policies {
+	background-image: url(../image/policies.jpg);}
+	
+#img-policies-test {
+	background-image: url(../image/denplan-logo-large.jpg);}
+	
+#img-open-hrs {
+	background-image: url(../image/opening-hours.jpg);}
+	
+#img-appt-and-emerg {
+	background-image: url(../image/appt-and-emerg.jpg);}
+	
+#img-location-map {
+	background-image: url(../image/location.jpg);}
+	
+#img-offers {
+	background-image: url(../image/snowflake.jpg);}
+	
+img#img-denplan {
+	display: block;
+	margin: 0px auto;}
+
+img#img-dht2015 {
+	display: block;
+	margin: 0px auto;}
+
+img#img-enlighten-teeth-whitening {
+	display: block;
+	margin: 0px auto;}
+	
+.col-center {
+	background-color: #202020;
+	float: left;
+	width: 210px;
+	text-align: center;}
+	
+.col-right {
+	height: 450px;
+	background-color: #505050;
+	float: left;
+	width: 370px;
+	padding: 10px;}
+
+#content-text {
+	color: #FFFFFF;
+	height: 100%;
+	overflow: auto;}
+	
+#content-text a:link, a:visited {
+	padding-left: 10px;
+	color: #FFFFFF;}
+
+#content-text table a:link, a:visited {
+	padding-left: 0px;}
+	
+#content-text p.centre-slogan {
+	text-align: center;}
+	
+#content-text a:link, a:visited p.centre-slogan {
+	padding: 0px;}
+	
+a#news-link {
+	color: #FFFFFF;}
+	
+p.with-image img {
+	padding-right: 10px;}
+	
+table#trtFees {
+	margin: 0px auto;}
+	
+table {
+	text-align: left;}
+	
+th, td {
+	padding: 5px 5px 5px 5px;}
+	
+table th {
+	text-transform: uppercase;
+	border-bottom: 2px solid #FFFFFF;}
+	
+table tr.even {
+	background-color: #C8C8C8;
+	background-color: #606060;}
+	
+table .money {
+	width: 180px;
+	text-align: right;}
+	
+iframe#map-in-frame {
+	display: block;
+	margin: 0px auto;
+	width: 100%;
+	max-width: 340px;
+	height: 350px;}
+	
+#footer {
+	color: #202020;
+	margin: 10px;
+	padding: 10px;
+	clear: both;
+	text-align: center;}
+	
+.developed-by {
+	font-size: 80%;}
+
+a.developed-by {
+	display: inline;}
+
+#footer a:link, a:visited{
+	/*display: block;*/
+	padding-top: 5px;
+	color: #202020;}
+
+a#dev-link {
+	display: inline !important;}
+	
+.footer-address {
+	display: block;
+	width: 60%;
+	float: left;
+	text-align: left;}
+	
+.footer-links {
+	display: block;
+	float: right;
+	width: 40%;
+	text-align: right;}

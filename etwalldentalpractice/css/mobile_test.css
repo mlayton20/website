@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: #C0C0C0;}
+	
+#page {
+	background-color: #FFFFFF;
+	width: 100%;
+	margin: 10px auto;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 12px;}
+
+#mobile-nav {
+	display: block;}
+	
+#header p.header-top {
+	display: inline-block;}
+	
+#header p.header-bottom {
+	display: inline-block;}
+	
+#mobile-nav a {
+	margin-left: -5px;
+	color: #FFFFFF;}
+	
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #fff;
+    font-size: 1px;
+}	
+
+#nav ul {
+	margin-top: 0px;}
+	
+#nav li {
+	display: inline-block;
+	padding: 5px;
+	line-height: normal;}
+	
+#nav a.shrink-text {
+	font-size: 120%;}
+	
+.col-left, .col-center, .col-right {
+	height: auto;}
+	
+.col-left {
+	display: none;}
+	
+.col-center {
+	margin-top: 10px;
+	background-color: #202020;
+	float: none;
+	width: 100%;
+	text-align: center;}
+	
+.col-right {
+	margin-top: 10px;
+	background-color: #505050;
+	float: none;
+	width: 100%;
+	padding: 0px;}
+
+#content-text {
+	color: #FFFFFF;
+	height: 100%;
+	overflow: auto;
+	padding: 10px;}
+	
+table .money {
+	width: 100px;}
+	
+table td.tel {
+	width: 100px;}
